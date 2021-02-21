@@ -49,7 +49,7 @@ model.fit(x_train, y_train, epochs=20, batch_size=32)
 actual = []
 
 for i in range(iterations):
-    actual.append(sin(i+iterations))
+    actual.append(sin(i+iterations+total_iterations))
 
 actual = np.array(actual)
 
